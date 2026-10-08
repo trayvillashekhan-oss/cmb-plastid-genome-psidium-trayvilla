@@ -75,3 +75,71 @@ The original NCBI accession number, Galaxy history name, and analysis tools were
 ### 3.6 Reference
 
 Jo, S., et al. (2016). Complete plastome sequence of *Psidium guajava* L. (Myrtaceae). *Mitochondrial DNA Part B*, 1(1), 612–614. https://doi.org/10.1080/23802359.2016.1209096
+
+## 4. Results
+
+### 4.1 General Characteristics of the Chloroplast Genome
+
+The complete chloroplast genome of *Psidium guajava* (NC_033355.1) was characterized using NCBI sequence information and Galaxy analysis.
+
+| Characteristic | Result |
+|---|---|
+| Scientific name | *Psidium guajava* L. |
+| Family | Myrtaceae |
+| NCBI RefSeq accession | NC_033355.1 |
+| GenBank accession | KX364403.1 |
+| Genome type | Chloroplast |
+| Genome topology | Circular |
+| Genome length | 158,841 bp |
+| Number of sequence records | 1 |
+| GC content | Approximately 37% |
+
+Galaxy's Compute sequence length tool confirmed a sequence length of 158,841 bp. The geecee tool reported a GC fraction of 0.37.
+
+### 4.2 Chloroplast Genome Organization
+
+The chloroplast genome has a quadripartite structure consisting of a large single-copy (LSC) region, a small single-copy (SSC) region, and two inverted-repeat regions (IRa and IRb).
+
+| Region | Length (bp) |
+|---|---:|
+| Large single-copy (LSC) | 87,675 |
+| Small single-copy (SSC) | 18,464 |
+| Inverted repeat A (IRa) | 26,351 |
+| Inverted repeat B (IRb) | 26,351 |
+| Total genome length | 158,841 |
+
+These region lengths were obtained from the published genome characterization by Jo et al. (2016), rather than measured directly in Galaxy.
+
+### 4.3 Gene Annotation
+
+The GenBank annotation was examined to identify the gene content of the chloroplast genome.
+
+| Gene category | Number |
+|---|---:|
+| Unique protein-coding genes | 78 |
+| Unique tRNA genes | 30 |
+| Unique rRNA genes | 4 |
+| Total unique protein-coding and RNA genes | 112 |
+| Annotated gene features, including duplicated copies | 132 |
+| Annotated pseudogene features | 3 |
+
+The number of annotated gene features is greater than the number of unique genes because some genes occur in duplicated regions.
+
+### 4.4 Functional Gene Categories
+
+The annotated chloroplast genes participate in several important biological processes.
+
+| Gene group | Examples | Main function |
+|---|---|---|
+| Photosystem I | psaA | Light-dependent electron transport |
+| Photosystem II | psbA | Light-dependent electron transport |
+| ATP synthase | atpB | ATP production |
+| Cytochrome b6f complex | petB | Photosynthetic electron transport |
+| Carbon fixation | rbcL | Carbon dioxide fixation |
+| RNA polymerase | rpoB | Transcription |
+| Ribosomal proteins | rpl2 | Protein synthesis |
+| RNA processing | matK | RNA splicing |
+
+### 4.5 RNA Genes, Introns, and Pseudogenes
+
+The genome annotation includes 30 unique tRNA genes and 4 unique rRNA genes. These genes contribute to protein synthesis within the

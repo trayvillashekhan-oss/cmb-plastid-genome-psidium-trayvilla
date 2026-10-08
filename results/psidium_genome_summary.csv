@@ -1,0 +1,20 @@
+parameter,value,source_or_note
+organism,Psidium guajava,GenBank
+accession,NC_033355.1,GenBank
+family,Myrtaceae,GenBank taxonomy
+genome_length_bp,158841,GenBank and Galaxy
+topology,circular,GenBank
+sequence_records,1,Single GenBank record; Galaxy length output
+GC_content_percent_exact,37.0119,Calculated from GenBank sequence
+GC_fraction_galaxy,0.37,Galaxy geecee rounded output
+gene_feature_count,132,GenBank gene features including repeats and pseudogenes
+distinct_gene_names,113,Includes pseudogene names
+protein_coding_CDS_features,84,Includes duplicated CDS
+unique_protein_coding_gene_names,78,Excludes pseudo genes without CDS
+tRNA_features,37,Includes duplicated copies
+unique_tRNA_names,30,Distinct gene names
+rRNA_features,8,Includes duplicated copies
+unique_rRNA_names,4,Distinct gene names
+pseudogene_features,3,"infA, ycf1, rps19"
+intron_features,25,Includes duplicated introns
+LSC_SSC_IR_sizes,Not directly labeled in GenBank features,Requires separate supported reference or boundary analysis

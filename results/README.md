@@ -5,6 +5,8 @@ This folder contains the sequence analysis results for the complete chloroplast 
 - Number of sequence records: 1
 - Galaxy tool: Compute sequence length
 - Galaxy history: Plastid_Psidium_Trayvilla
+- GC content: approximately 37%
+- GC content analysis tool: geecee
 
 ## Plastid Genome Organization
 

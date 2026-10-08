@@ -213,3 +213,33 @@ One limitation is that the LSC, SSC, and inverted-repeat boundaries were not ind
 Another limitation is that the activity examined existing sequence annotations rather than experimentally confirming gene expression or protein function.
 
 Overall, the analysis provided a useful overview of the structure, composition, and biological significance of the *Psidium guajava* chloroplast genome.
+
+## 6. Conclusion
+
+The complete chloroplast genome of *Psidium guajava* L. was successfully characterized using NCBI sequence information, Galaxy bioinformatics tools, and GenBank annotations.
+
+The genome consists of 158,841 base pairs, with one sequence record and a GC content of approximately 37%. Its quadripartite organization includes a large single-copy region, a small single-copy region, and two inverted-repeat regions.
+
+The annotation-based characterization identified 78 unique protein-coding genes, 30 unique tRNA genes, and 4 unique rRNA genes. Genes involved in photosynthesis, transcription, translation, and RNA processing were also examined, along with intron-containing genes, pseudogenes, and duplicated gene copies.
+
+The activity demonstrated the usefulness of plastid genomes in studying plant genetics, genome organization, and evolutionary relationships. It also highlighted the importance of combining bioinformatics results with published references and existing genome annotations.
+
+Overall, the objectives of the activity were achieved through the analysis and documentation of the *Psidium guajava* chloroplast genome.
+
+## 7. References
+
+1. National Center for Biotechnology Information (NCBI). *Psidium guajava* chloroplast, complete genome. RefSeq accession NC_033355.1. https://www.ncbi.nlm.nih.gov/nuccore/NC_033355.1
+
+2. Jo, S., et al. (2016). Complete plastome sequence of *Psidium guajava* L. (Myrtaceae). *Mitochondrial DNA Part B*, 1(1), 612–614. https://doi.org/10.1080/23802359.2016.1209096
+
+3. Galaxy Community. Galaxy: An accessible platform for reproducible computational research. https://usegalaxy.org/
+
+## 8. Data Availability
+
+The FASTA and GenBank files, Galaxy analysis outputs, screenshots, gene annotation tables, and supporting reports are documented in the GitHub repository:
+
+https://github.com/trayvillashekhan-oss/cmb-plastid-genome-psidium-trayvilla
+
+The Galaxy analysis history is named **Plastid_Psidium_Trayvilla**.
+
+The original sequence data are publicly available through NCBI under accession **NC_033355.1**.

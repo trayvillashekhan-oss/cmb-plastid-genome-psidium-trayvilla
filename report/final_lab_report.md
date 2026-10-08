@@ -148,19 +148,17 @@ Intron-containing genes include clpP and ycf3. The rps12 gene is notable for its
 
 Three pseudogene features were identified in the annotation: infA, ycf1, and rps19.
 
-4.6 Galaxy Analysis Outputs
+### 4.6 Galaxy Analysis Outputs
 
 The following results were generated using Galaxy and documented in GitHub:
 
-Sequence-length output from Compute sequence length.
+- Sequence-length output from Compute sequence length.
+- GC-content output from geecee.
+- Screenshots showing the completed Galaxy analyses.
 
-GC-content output from geecee.
+The original sequence files, gene annotation tables, and genome summary are available in the repository's `data/`, `results/`, and `figures/` folders.
 
-Screenshots showing the completed Galaxy analyses.
-
-The original sequence files, gene annotation tables, and genome summary are available in the repository's data/, results/, and figures/ folders.
-
-Data sources: NCBI NC_033355.1; Galaxy analysis outputs; Jo et al. (2016).
+**Data sources:** NCBI NC_033355.1; Galaxy analysis outputs; Jo et al. (2016).
 
 ## 5. Discussion and Interpretation
 

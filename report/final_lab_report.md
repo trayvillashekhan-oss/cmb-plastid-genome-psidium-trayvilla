@@ -142,4 +142,74 @@ The annotated chloroplast genes participate in several important biological proc
 
 ### 4.5 RNA Genes, Introns, and Pseudogenes
 
-The genome annotation includes 30 unique tRNA genes and 4 unique rRNA genes. These genes contribute to protein synthesis within the
+The genome annotation includes 30 unique tRNA genes and 4 unique rRNA genes. These genes contribute to protein synthesis within the chloroplast.
+
+Intron-containing genes include clpP and ycf3. The rps12 gene is notable for its trans-splicing arrangement.
+
+Three pseudogene features were identified in the annotation: infA, ycf1, and rps19.
+
+4.6 Galaxy Analysis Outputs
+
+The following results were generated using Galaxy and documented in GitHub:
+
+Sequence-length output from Compute sequence length.
+
+GC-content output from geecee.
+
+Screenshots showing the completed Galaxy analyses.
+
+The original sequence files, gene annotation tables, and genome summary are available in the repository's data/, results/, and figures/ folders.
+
+Data sources: NCBI NC_033355.1; Galaxy analysis outputs; Jo et al. (2016).
+
+## 5. Discussion and Interpretation
+
+### 5.1 Chloroplast Genome Characteristics
+
+The complete chloroplast genome of *Psidium guajava* contains 158,841 base pairs and has a GC content of approximately 37%, based on the Galaxy analysis. These results describe the genome's basic sequence characteristics.
+
+The genome has a circular, quadripartite organization consisting of the large single-copy (LSC), small single-copy (SSC), and two inverted-repeat (IR) regions. The region sizes reported by Jo et al. (2016) are consistent with the total genome length obtained using Galaxy.
+
+### 5.2 Gene Content and Biological Functions
+
+The chloroplast genome contains genes involved in photosynthesis, ATP synthesis, transcription, translation, and RNA processing.
+
+Genes such as *psaA* and *psbA* participate in photosynthetic electron transport, while *rbcL* contributes to carbon fixation. The *atpB* gene is involved in ATP production, and *rpoB* participates in transcription.
+
+The presence of these genes demonstrates that the chloroplast genome encodes components needed for its specialized functions. However, many other proteins required for chloroplast activities are encoded by nuclear genes.
+
+### 5.3 RNA Genes and Introns
+
+The tRNA and rRNA genes are important for protein synthesis within the chloroplast. Transfer RNAs deliver amino acids during translation, while ribosomal RNAs form essential components of ribosomes.
+
+Intron-containing genes, including *clpP* and *ycf3*, require RNA processing to produce mature transcripts. The *rps12* gene is particularly interesting because it undergoes trans-splicing, in which RNA segments originating from separate genomic regions are joined together.
+
+These features demonstrate that chloroplast gene expression involves RNA processing in addition to transcription and translation.
+
+### 5.4 Pseudogenes and Duplicated Genes
+
+The GenBank annotation identifies pseudogene features associated with *infA*, *ycf1*, and *rps19*. Pseudogenes may result from gene disruption, sequence changes, or the presence of incomplete gene copies.
+
+The two inverted-repeat regions also contribute to gene duplication. As a result, the total number of annotated gene features can exceed the number of unique genes.
+
+These observations highlight the importance of distinguishing unique gene counts from total annotated gene copies.
+
+### 5.5 Comparison with Mitochondrial and Nuclear Genomes
+
+Plastid and mitochondrial genomes share characteristics such as their endosymbiotic origins, possession of their own DNA, and dependence on nuclear-encoded proteins.
+
+However, plastid genomes primarily encode proteins associated with photosynthesis and related processes, while mitochondrial genomes encode proteins involved in cellular respiration and energy metabolism.
+
+Compared with nuclear genomes, plastid genomes are generally smaller and often more conserved in gene organization. This makes them useful for evolutionary studies and species identification. However, plastid genomes provide only part of the genetic information needed to understand an organism.
+
+### 5.6 Significance and Limitations of the Analysis
+
+This activity demonstrated how publicly available genome sequences and bioinformatics tools can be used to characterize a chloroplast genome.
+
+Galaxy provided measurements of sequence length and GC content, while the NCBI GenBank annotation provided information about gene content and organization.
+
+One limitation is that the LSC, SSC, and inverted-repeat boundaries were not independently determined using Galaxy. Their reported lengths were obtained from the published reference.
+
+Another limitation is that the activity examined existing sequence annotations rather than experimentally confirming gene expression or protein function.
+
+Overall, the analysis provided a useful overview of the structure, composition, and biological significance of the *Psidium guajava* chloroplast genome.

@@ -41,3 +41,25 @@ Two examples of intron-containing chloroplast genes are:
 The **rps12** gene is also notable because it undergoes trans-splicing, in which RNA segments transcribed from separate genomic regions are joined together.
 
 **Data source:** *Psidium guajava* chloroplast genome annotation, NC_033355.1.
+
+## Pseudogenes and Duplicated Genes
+
+### Pseudogenes
+
+Pseudogenes are gene sequences that have lost some or all of their original protein-coding function.
+
+The GenBank annotation of *Psidium guajava* (NC_033355.1) identifies three pseudogene features:
+
+- **infA** — Associated with translation initiation factor 1.
+- **ycf1** — A chloroplast gene associated with protein transport across the chloroplast inner envelope; a partial copy may be annotated as a pseudogene.
+- **rps19** — Associated with ribosomal protein S19.
+
+These features are annotated as pseudogenes in the reference record; their functional status was not experimentally tested in this activity.
+
+### Duplicated Genes
+
+The chloroplast genome contains two inverted-repeat regions, IRa and IRb. These regions generally contain duplicated copies of certain genes, particularly ribosomal RNA and transfer RNA genes.
+
+Duplicated gene copies contribute to the difference between the number of annotated gene features and the number of unique genes.
+
+**Data source:** *Psidium guajava* chloroplast genome, NCBI accession NC_033355.1.

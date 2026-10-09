@@ -34,3 +34,15 @@ The **rrn16** gene is located in the inverted-repeat regions. Yes, it is duplica
 ### 7. Identify one photosynthesis-related gene visible on the genome map and explain its function.
 
 The **rbcL** gene is a photosynthesis-related gene annotated in the chloroplast genome. It encodes the large subunit of RuBisCO, an enzyme responsible for fixing carbon dioxide during the Calvin cycle of photosynthesis.
+
+### 8. What do the arrows indicating transcription direction mean?
+
+The arrows show the direction in which genes are transcribed into RNA. They indicate the orientation of genes on the chloroplast genome and help distinguish genes transcribed in opposite directions.
+
+### 9. Is the GC content uniform throughout the plastid genome? What do you observe?
+
+No, the GC content is not completely uniform throughout the plastid genome. Based on the inner GC content graph, slight variations can be observed across different regions. This indicates that the proportion of guanine (G) and cytosine (C) bases varies along the chloroplast DNA sequence.
+
+### 10. Why is a circular genome map useful compared with a raw DNA sequence or a gene annotation list?
+
+A circular genome map provides a clearer visualization of the chloroplast genome's overall organization. It allows us to easily identify the LSC, SSC, and inverted-repeat regions, observe gene distribution and transcription direction, and examine GC content variations. Unlike a raw DNA sequence or annotation list, the map makes the genome structure easier to understand and compare.
